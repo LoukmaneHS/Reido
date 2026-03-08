@@ -43,7 +43,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    height: 90px;
+    height: 80px;
 }
 
 .header-left {
@@ -104,7 +104,7 @@ body {
 
 .btn-support {
     background: linear-gradient(135deg, var(--primary-blue), var(--bright-blue));
-    color: var(--black);
+    color: white;
     box-shadow: 0 4px 15px rgba(0, 102, 204, 0.4);
 }
 
