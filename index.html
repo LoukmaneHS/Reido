@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REIDO - Real Eidolon Software Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.144.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.144.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <img src="relogo.png" alt="Logo" class="logo-img">
+            <img src="name.png" alt="Name" class="name-img">
+            <span class="site-name">REIDO - Real Eidolon</span>
+        </div>
+        <div class="header-buttons">
+            <a href="#contact" class="btn-small btn-contact">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#support" class="btn-small btn-support">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Welcome to REIDO</h1>
+            <p>"Welcome to REIDO, a creative hub where passion meets pixels. We are a newly established studio formed by a group of dedicated hobbyists and visual artists. As a multidisciplinary team, we explore every corner of the graphic design world, bringing a fresh, raw, and enthusiastic perspective to visual storytelling. We are here to turn abstract imagination into tangible art."</p>
+            <a href="portfolio.php" class="btn">
+                <i class="fas fa-images"></i>
+                View Portfolio
+            </a>
+        </div>
+        <div class="banner-canvas-container">
+            <canvas id="gltfCanvas"></canvas>
+        </div>
+    </div>
+
+    <section class="main-content">
+        <div class="profile-frame">
+            <div class="profile-container">
+                <!-- قائمة المهارات الجانبية -->
+                <div>
+                    <h2 class="section-title">Experiences</h2>
+                    <div class="skills-sidebar">
+                    <a href="skill-web-development.html" class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>Web Development</span>
+                    </a>
+                    <a href="skill-ui-ux.html" class="skill-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>UI/UX Design</span>
+                    </a>
+                    <a href="skill-mobile-apps.html" class="skill-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Mobile Apps</span>
+                    </a>
+                    <a href="skill-database.html" class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>Database Design</span>
+                    </a>
+                    <a href="skill-backend.html" class="skill-item">
+                        <i class="fas fa-server"></i>
+                        <span>Backend Dev</span>
+                    </a>
+                    <a href="skill-frontend.html" class="skill-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Frontend Dev</span>
+                    </a>
+                    <a href="skill-cyber-security.html" class="skill-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Cyber Security</span>
+                    </a>
+                    <a href="skill-data-analysis.html" class="skill-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Data Analysis</span>
+                    </a>
+                    </div>
+                </div>
+
+                <!-- المحتوى الأصلي -->
+                <div class="profile-content">
+                    <h2 class="section-title">About</h2>
+                    <div class="profile-grid">
+                        <div class="profile-image">
+                            <img src="my-img.png" alt="My Profile" class="personal-img">
+                        </div>
+                        <div class="profile-info">
+                            <div class="info-item">
+                                <i class="fas fa-building"></i>
+                                <span><strong>Studio Name:</strong> REIDO - Real Eidolon</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-calendar"></i>
+                                <span><strong>Founded:</strong> 2026</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span><strong>Headquarters:</strong> Ghardaïa, Algeria</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-users"></i>
+                                <span><strong>Team:</strong> Multidisciplinary Team</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span><strong>Focus:</strong> Design & Engineering</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-rocket"></i>
+                                <span><strong>Mission:</strong> Digital Transformation Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-bio">
+                        <p>"REIDO - Real Eidolon represents the spirit of pure creativity. Founded in 2026, we are a collective of self-taught designers who believe that true art comes from the freedom to experiment. Unlike traditional corporate structures, our amateur spirit drives us to innovate boldly across all fields of graphic design. We specialize in crafting unique visual identities and artistic solutions, proving that the most significant breakthroughs happen when passion fuels the process. We are committed to growing alongside our projects and bringing your most ambitious visions to life."</p>
+                    </div>
+                    
+                    <div class="floating-socials">
+                        <a href="#" class="float-icon youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="float-icon facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="float-icon discord" title="Discord"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="float-icon reddit" title="Reddit"><i class="fab fa-reddit-alien"></i></a>
+                        <a href="#" class="float-icon whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="float-icon telegram" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="mailto:loukmanehadjsaid210@gmail.com" class="float-icon email" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="float-icon x" title="X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="float-icon linkedin boss" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; REIDO - Real Eidolon Software Studio. All rights reserved 2026</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
