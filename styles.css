@@ -52,24 +52,9 @@ body {
     gap: 1rem;
 }
 
-.logo-img {
-    width: 75px;
-    height: 75px;
-    border-radius: 5px;
-    object-fit: contain;
-}
-
 .name-img {
     height: 75px;
     width: auto;
-}
-
-.site-name {
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    display: none;
 }
 
 .header-buttons {
@@ -91,24 +76,13 @@ body {
     cursor: pointer;
 }
 
-.btn-contact {
+.btn-header {
     background: linear-gradient(135deg, var(--primary-blue), var(--bright-blue));
     color: white;
     box-shadow: 0 4px 15px rgba(0, 102, 204, 0.4);
 }
 
-.btn-contact:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 102, 204, 0.6);
-}
-
-.btn-support {
-    background: linear-gradient(135deg, var(--primary-blue), var(--bright-blue));
-    color: white;
-    box-shadow: 0 4px 15px rgba(0, 102, 204, 0.4);
-}
-
-.btn-support:hover {
+.btn-header:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 102, 204, 0.6);
 }
@@ -197,34 +171,7 @@ body {
     margin-bottom: 0.5rem;
     font-weight: 600;
     font-size: 0.85rem;
-}
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.social-links a {
-    color: #ffffff;
-    font-size: 1.2rem;
-    transition: all 0.3s;
-    width: 35px;
-    height: 35px;
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.3);
-}
-
-.social-links a:hover {
-    background: var(--primary-blue);
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 102, 204, 0.5);
-}
 
 .btn {
     padding: 1.2rem 3rem;
