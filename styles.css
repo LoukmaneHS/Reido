@@ -428,8 +428,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 2rem 1rem;
-    max-width: 1200px;
+    padding: 1rem 1rem;
+    max-width: 1650px;
     margin: 0 auto;
 }
 
