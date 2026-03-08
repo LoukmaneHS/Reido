@@ -30,7 +30,7 @@ body {
 }
 
 .header {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.3);
     padding: 0.5rem 1.5rem;
     position: fixed;
     width: 100%;
@@ -114,7 +114,7 @@ body {
 }
 
 .banner {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bbg.png') no-repeat center/cover;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bbg.png') no-repeat center/cover;
     background-size: cover;
     background-position: center;
     height: 850px;
