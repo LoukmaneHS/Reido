@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let model;
     const loader = new THREE.GLTFLoader();
     loader.load(
-        'logo.glb',
+        'Models/logo.glb',
         function (gltf) {
             model = gltf.scene;
             model.traverse((child) => {
