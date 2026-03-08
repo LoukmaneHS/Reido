@@ -160,10 +160,10 @@ body {
 
 .banner-canvas-container {
     position: absolute; 
-    width: 700px;       
-    height: 700px;      
+    width: 720px;       
+    height: 720px;      
     right: 220px;      
-    top: 70px;          
+    top: 90px;          
     display: flex;
     align-items: center;
     justify-content: center;
