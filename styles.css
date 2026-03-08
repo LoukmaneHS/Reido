@@ -117,10 +117,10 @@ body {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('bbg.png') no-repeat center/cover;
     background-size: cover;
     background-position: center;
-    height: 850px;
+    height: 900px;
     width: 100%;
     position: relative;
-    top: -50px;
+    top: -55px;
     z-index: 999;
     display: flex;
     align-items: center;
