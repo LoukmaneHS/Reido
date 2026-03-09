@@ -389,6 +389,14 @@ body {
     backdrop-filter: blur(5px);
 }
 
+.float-icon svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .youtube   { background: linear-gradient(135deg, #ff0000, #cc0000); animation-delay: 0s; }
 .facebook  { background: linear-gradient(135deg, #1877f2, #0d5fd8); animation-delay: 0.2s; }
 .discord   { background: linear-gradient(135deg, #5865f2, #4752c4); animation-delay: 0.4s; }
