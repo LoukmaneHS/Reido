@@ -109,7 +109,7 @@ body {
     color: var(--text-light);
     z-index: 10;
     margin-left: 220px; 
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .banner-content h1 {
@@ -245,7 +245,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--text-light);
     border: 1px solid rgba(0, 0, 0, 0.8);
     text-decoration: none;
@@ -333,7 +333,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 0.6rem 1rem;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -354,7 +354,7 @@ body {
 }
 
 .profile-bio p {
-    font-size: 1.1rem;
+    font-size: 20px;
     line-height: 1.8;
     color: rgba(255, 255, 255, 0.95);
     text-align: justify;
