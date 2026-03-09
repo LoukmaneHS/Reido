@@ -88,7 +88,7 @@ body {
 }
 
 .banner {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('Images/bbg.png') no-repeat center/cover;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('Images/bbg.png') no-repeat center/cover;
     background-size: cover;
     background-position: center;
     height: 960px;
