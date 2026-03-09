@@ -396,16 +396,30 @@ body {
     backdrop-filter: blur(5px);
 }
 
-.youtube  { background: linear-gradient(135deg, #ff0000, #cc0000); animation-delay: 0s; }
-.facebook { background: linear-gradient(135deg, #1877f2, #0d5fd8); animation-delay: 0.2s; }
-.discord  { background: linear-gradient(135deg, #5865f2, #4752c4); animation-delay: 0.4s; }
-.reddit   { background: linear-gradient(135deg, #ff4500, #cc3700); animation-delay: 0.6s; }
-.whatsapp { background: linear-gradient(135deg, #25d366, #1da851); animation-delay: 0.8s; }
-.telegram { background: linear-gradient(135deg, #0088cc, #006699); animation-delay: 1s; }
-.email    { background: linear-gradient(135deg, #ea4335, #c13528); animation-delay: 1.2s; }
-.x        { background: linear-gradient(135deg, #000000, #333333); animation-delay: 1.4s; }
-.linkedin { background: linear-gradient(135deg, #0a66c2, #084d94); animation-delay: 1.6s; }
+.youtube   { background: linear-gradient(135deg, #ff0000, #cc0000); animation-delay: 0s; }
+.facebook  { background: linear-gradient(135deg, #1877f2, #0d5fd8); animation-delay: 0.2s; }
+.discord   { background: linear-gradient(135deg, #5865f2, #4752c4); animation-delay: 0.4s; }
+.reddit    { background: linear-gradient(135deg, #ff4500, #cc3700); animation-delay: 0.6s; }
+.instagram { background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); animation-delay: 0.8s; }
+.behance   { background: linear-gradient(135deg, #1769ff, #003399); animation-delay: 1s; }
+.vimeo     { background: linear-gradient(135deg, #1ab7ea, #162221); animation-delay: 1.2s; }
+.artstation { background: linear-gradient(135deg, #13aff0, #0d3a58); animation-delay: 1.4s; }
+.sketchfab { background: linear-gradient(135deg, #1caad9, #1086ae); animation-delay: 1.6s; }
 
+.email     { background: linear-gradient(135deg, #ea4335, #c13528); animation-delay: 1.8s; }
+.x         { background: linear-gradient(135deg, #000000, #333333); animation-delay: 2s; }
+.linkedin  { background: linear-gradient(135deg, #0a66c2, #084d94); animation-delay: 2.2s; }
+
+.float-icon svg {
+    width: 32px; 
+    height: 32px;
+    fill: white; 
+    transition: all 0.3s ease;
+}
+
+.float-icon:hover svg {
+    transform: scale(1.1);
+}
 .float-icon:hover {
     transform: translateY(-10px) scale(1.15);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
