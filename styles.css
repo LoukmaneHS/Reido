@@ -91,7 +91,7 @@ body {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/bbg.png') no-repeat center/cover;
     background-size: cover;
     background-position: center;
-    height: 950px;
+    height: 960px;
     width: 100%;
     position: relative;
     top: -55px;
@@ -146,7 +146,7 @@ body {
 }
 
 .footer {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     padding: 0.9rem;
     text-align: center;
     border-top: 2px solid #333333;
